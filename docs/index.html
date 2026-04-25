@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prayer Times — Azan & Qibla</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           background: #0a1f1a; color: #f0ede4; min-height: 100vh;
+           display: flex; flex-direction: column; align-items: center;
+           justify-content: center; padding: 48px 24px; text-align: center; }
+    .icon { width: 96px; height: 96px; border-radius: 22px; margin-bottom: 24px;
+            border: 2px solid #c9a84c33; }
+    h1 { color: #c9a84c; font-size: 2.2rem; margin-bottom: 8px; }
+    .tagline { color: #a89880; margin-bottom: 40px; font-size: 1.05rem; }
+    .badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+              margin-bottom: 60px; }
+    .badge { background: #122430; border: 1px solid #1a3a2a; border-radius: 12px;
+             padding: 12px 20px; }
+    .badge strong { display: block; color: #c9a84c; font-size: 1.1rem; }
+    .badge span { color: #a89880; font-size: 0.85rem; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 16px; max-width: 700px; margin-bottom: 60px; }
+    .feature { background: #122430; border-radius: 12px; padding: 20px;
+               border: 1px solid #1a3a2a; }
+    .feature .icon-f { font-size: 1.8rem; margin-bottom: 8px; }
+    .feature h3 { color: #f0ede4; margin-bottom: 6px; font-size: 1rem; }
+    .feature p { color: #a89880; font-size: 0.85rem; line-height: 1.5; }
+    .play-btn { display: inline-block; background: #c9a84c; color: #0a1f1a;
+                text-decoration: none; padding: 14px 32px; border-radius: 50px;
+                font-weight: 700; font-size: 1rem; margin-bottom: 48px; }
+    footer { color: #a89880; font-size: 0.85rem; }
+    footer a { color: #c9a84c; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div style="font-size:4rem;margin-bottom:16px;">🕌</div>
+  <h1>Prayer Times</h1>
+  <p class="tagline">Azan · Qibla · Hijri Calendar &nbsp;·&nbsp; 100% Offline · 500+ Cities</p>
+
+  <a class="play-btn"
+     href="https://play.google.com/store/apps/details?id=com.azan.prayer_times"
+     target="_blank">
+    ▶ Get it on Google Play
+  </a>
+
+  <div class="badges">
+    <div class="badge"><strong>500+</strong><span>World Cities</span></div>
+    <div class="badge"><strong>4</strong><span>Languages</span></div>
+    <div class="badge"><strong>10+</strong><span>Calc Methods</span></div>
+    <div class="badge"><strong>100%</strong><span>Offline</span></div>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon-f">🕐</div>
+      <h3>Precise Prayer Times</h3>
+      <p>Fajr, Sunrise, Dhuhr, Asr, Maghrib & Isha calculated offline for any city worldwide.</p>
+    </div>
+    <div class="feature">
+      <div class="icon-f">🧭</div>
+      <h3>Qibla Compass</h3>
+      <p>Live compass pointing toward Makkah al-Mukarramah with spring-physics precision.</p>
+    </div>
+    <div class="feature">
+      <div class="icon-f">📅</div>
+      <h3>Hijri Calendar</h3>
+      <p>Full Islamic calendar with Hijri dates, Ramadan tracking, and Islamic events.</p>
+    </div>
+    <div class="feature">
+      <div class="icon-f">🔔</div>
+      <h3>Adhan Notifications</h3>
+      <p>Beautiful adhan voices from Makkah, Madinah and Al-Aqsa — customize per prayer.</p>
+    </div>
+  </div>
+
+  <footer>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    &nbsp;·&nbsp;
+    <a href="terms.html">Terms of Service</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:mhmtnzly@gmail.com">Contact</a>
+    <br><br>
+    &copy; 2026 Prayer Times. All rights reserved.
+  </footer>
+</body>
+</html>
