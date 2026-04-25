@@ -17,4 +17,4 @@ Premium Islamic prayer times app for Android.
 - 100% offline
 
 Package: `com.azan.prayer_times`  
-Contact: mhmtnzly@gmail.com
+Contact: myhabituslife@gmail.com
